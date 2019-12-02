@@ -1,0 +1,164 @@
+.table-project__card p{
+    margin-bottom: 0.2rem;
+}
+
+.table-project__card__header{
+    transform: perspective(300px);
+}
+.table-project__card__header::before {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    top: 0;
+    left: -10%;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    background: #cfd8dc;
+    transform: skew(-15deg);
+    transform-origin: 0 50%;
+    transition: all 0.5s; 
+}
+.table-project__card__header:hover::before {
+    width: 60%;
+}
+.table-project__card__header:focus::before {
+    width: 120%;
+}
+.table-project__card__header:active::before {
+    width: 120%;
+}
+
+.table-project__card__table-color{
+    background-color: #f5f5f5;
+}
+
+.table-project__card__table td span:first-child{
+    font-weight: bold;
+}
+
+.table-project__card__table td span:last-child{
+    color: orangered;
+    
+}
+
+.table-project__card__table__col-id{
+    width: 3%;
+}
+
+.table-project__card__table__col-budget{
+    width: 13.5%;
+}
+
+.table-project__card__table__col-work{
+    width: 9%;
+}
+
+.table-project__card__table__col-work-new > p:first-child{
+    font-size: 1 rem;
+    color: #dd2c00;
+    padding-right: 14px;
+}
+
+.table-project__card__table__col-work-ready > p:first-child{
+    font-size:  1 rem;
+    color: #f06292;
+}
+
+.table-project__card__table__col-work-in-progress > p:first-child{
+    font-size:  1 rem;
+    color: #f4511e;
+}
+
+.table-project__card__table__col-work-ready-for-test > p:first-child{
+    font-size:  1 rem;
+    color: #ffab00;
+}
+
+.table-project__card__table__col-work-done > p:first-child{
+    font-size:  1 rem;
+    color: #669900;
+}
+
+.table-project__card__table__col-work-archived > p:first-child{
+    font-size:  1 rem;
+    padding-left: 14px;
+    color: #5C3566;
+}
+.station__gateway{
+
+    overflow: auto;
+}
+.station__input-gateway{
+    overflow: auto;
+
+}
+.station--overflow{
+    height: 4rem !important;
+}
+/* ----------------------------Nhung------------------- */
+.station_nav-info{
+    margin-right: 2rem !important;
+}
+.station__lable{
+    margin-top: 3.5rem ;
+    margin-bottom: 2.5rem;
+}
+.font__vung{
+    font-family: times, serif;
+    color: red;
+}
+/* ----------------------------Nhung------------------- */
+@media only screen and (min-device-width: 300px) 
+and (max-device-width: 812px){
+    .table-project{
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .table-project__card__table__col-work-new > p:first-child{
+        font-size: 1rem;
+        padding-right: 14px;
+    }
+    .table-project__card__table{
+        width: 1000px;
+    } 
+    .station--input-search-size{
+        width: 4rem !important;
+    }
+    .station--button-new{
+        width: 2.2rem !important;
+        height: 1.8rem !important;
+    }
+    .station_nav-info{
+        float: center !important ;
+    }
+    /* -------------------------------nhung----------------- */
+    .station__icon-new-station{
+        padding: 0rem !important;
+    }
+    .station__search{
+        padding: 0rem !important;
+    }
+    .station_nav-info{
+        margin-right: 0.5rem !important;
+    }
+    .station__lable{
+        margin-top: 1.5rem ;
+        margin-bottom: 1.5rem;
+    }
+    /* ------------------------------nhung-------------------- */
+}
+
+.table-project__card-header {
+    background-color: #E5E9F2;
+}
+
+.table-project__h6 {
+    font-size: 0.7rem
+}
+.img--user{
+    width: 80px;
+    height: 80px;
+}
